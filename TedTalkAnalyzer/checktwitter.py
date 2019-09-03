@@ -10,10 +10,10 @@ import twitter
 """ Setting the Authorization keys inorder to access the Twitter Account Data wihtou 
     exposing sensitive data"""
 
-CONSUMER_KEY = 'qpRnayT2PNGjaDsHiXth9iTfP'
-CONSUMER_SECRET = 'tQ2gVqGzkaImUnndObZPOZ8ettIzA5yEr6WlnOxNgF0WXcqnec'
-OAUTH_TOKEN = '1092516967104303105-oTxrpkI1IBshRTQ89wVm9FD3tmO1Mo'
-OAUTH_TOKEN_SECRET = 'gKDcoORmguzua3ONgtli2sgPh6KevnYTSdW1p5S8XCbia'
+CONSUMER_KEY = '*************'
+CONSUMER_SECRET = '***************************************'
+OAUTH_TOKEN = '***************************************'
+OAUTH_TOKEN_SECRET = '***************************************'
 
 auth = twitter.oauth.OAuth(OAUTH_TOKEN, OAUTH_TOKEN_SECRET,
                            CONSUMER_KEY, CONSUMER_SECRET)
